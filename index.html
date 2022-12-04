@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Product page</title>
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <i class="ri-shopping-bag-line"><span class="bubble-quantity hidden"></span></i>
+            <h1 class="title-shop">Versace</h1>
+            <div class="burger ">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+        </div>
+        <nav>
+            <ul class="menu-container">
+                <li>Home</li>
+                <li>Product</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="container-desc-img-product">
+            <div id="main-img-container">
+                <div class="arrow-boxes hidden" id="left-arrow">
+                    <div class="line1-left"></div>
+                    <div class="line2-left"></div>
+                </div>
+                <div id="main-img-product">
+                    <img src="./img/versace_1_black.webp" alt="laptop">
+                </div>
+                <div class="arrow-boxes" id="right-arrow">
+                    <div class="line1-right"></div>
+                    <div class="line2-right"></div>
+                </div>
+            </div>
+            <div class="description-product">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iste, voluptate eos maxime
+                    quisquam
+                    similique nemo neque officiis omnis repellat, architecto quidem.
+                </p>
+                <div class="fieldset">
+                    <div class="size-container">
+                        <label for="size">Size</label>
+                        <select name="size" id="size">
+                            <option value="sm">Small</option>
+                            <option value="md">Medium</option>
+                            <option value="lg">Large</option>
+                        </select>
+                    </div>
+                    <div class="bubble-container">
+                        <label for="color">Color</label>
+                        <div>
+                            <input type="button" id="b-black" name="b-black" class="bubble bubble-color-3">
+                            <input type="button" id="b-gold" name="b-gold" class="bubble bubble-color-2">
+                            <input type="button" id="b-silver" name="b-silver" class="bubble bubble-color-1">
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-cart"><i class="ri-shopping-bag-line"></i> Add to Cart</button>
+            </div>
+        </div>
+        <div class="min-img-container">
+            <div class="img-min-box">
+                <img class="img-min" src="./img/versace_1_black.webp" alt="sunglasses aside black" tabindex="0">
+            </div>
+            <div class="img-min-box">
+                <img class="img-min" src="./img/versace_2_black.webp" alt="sunglasses front black" tabindex="0">
+            </div>
+            <div class="img-min-box">
+                <img class="img-min" src="./img/versace_3_black.webp" alt="sunglasses right side black" tabindex="0">
+            </div>
+            <div class="img-min-box">
+                <img class="img-min" src="./img/versace_4_black.webp" alt="sunglasses front closed black" tabindex="0">
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
